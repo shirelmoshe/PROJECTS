@@ -1,0 +1,17 @@
+# PROJECTS
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main()
+{
+    srand(time(NULL));
+    int roll;
+    for (int i = 0; i <= 5; i++) {
+        roll = rand() % 7 + 1;
+        printf("%d\n", roll);
+    }
+    
+}
+
